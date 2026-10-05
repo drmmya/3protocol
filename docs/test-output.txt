@@ -1,0 +1,53 @@
+test_job_failure_is_not_success (test_agent.AgentTests.test_job_failure_is_not_success) ... ok
+test_metrics_real_values (test_agent.AgentTests.test_metrics_real_values) ... ok
+test_settings_input (test_agent.AgentTests.test_settings_input) ... ok
+test_unknown_command (test_agent.AgentTests.test_unknown_command) ... ok
+test_counter_reset_duplicate_sessions_durable (test_core.CoreTests.test_counter_reset_duplicate_sessions_durable) ... ok
+test_initial_user_required_password (test_core.CoreTests.test_initial_user_required_password) ... ok
+test_new_timezone_future_bucket (test_core.CoreTests.test_new_timezone_future_bucket) ... ok
+test_password_hash_salted (test_core.CoreTests.test_password_hash_salted) ... ok
+test_password_newline_rejected (test_core.CoreTests.test_password_newline_rejected) ... ok
+test_restore_user_after_delete (test_core.CoreTests.test_restore_user_after_delete) ... ok
+test_user_password_block_edit (test_core.CoreTests.test_user_password_block_edit) ... ok
+test_user_protocol_bounds (test_core.CoreTests.test_user_protocol_bounds) ... ok
+test_validation (test_core.CoreTests.test_validation) ... ok
+test_firewall_scoped (test_install.InstallTests.test_firewall_scoped) ... ok
+test_local_only_xray_api (test_install.InstallTests.test_local_only_xray_api) ... ok
+test_native_udp4443_mkcp_listener (test_install.InstallTests.test_native_udp4443_mkcp_listener) ... ok
+test_nginx_ssl_separate_port (test_install.InstallTests.test_nginx_ssl_separate_port) ... ok
+test_ports_and_pools (test_install.InstallTests.test_ports_and_pools) ... ok
+test_route_overlap_and_default_route (test_install.InstallTests.test_route_overlap_and_default_route) ... ok
+test_xray_upgrade_keeps_tcp_tls_and_clients (test_install.InstallTests.test_xray_upgrade_keeps_tcp_tls_and_clients) ... ok
+test_complete_udp_client_profile_matches_legacy_mask (test_protocols.ProtocolTests.test_complete_udp_client_profile_matches_legacy_mask) ... ok
+test_ocserv_json (test_protocols.ProtocolTests.test_ocserv_json) ... ok
+test_ocserv_machine_fields (test_protocols.ProtocolTests.test_ocserv_machine_fields) ... ok
+test_online_value (test_protocols.ProtocolTests.test_online_value) ... ok
+test_openvpn_duplicate_name (test_protocols.ProtocolTests.test_openvpn_duplicate_name) ... ok
+test_vmess_export (test_protocols.ProtocolTests.test_vmess_export) ... ok
+test_vmess_udp_export (test_protocols.ProtocolTests.test_vmess_udp_export) ... ok
+test_xray_stats (test_protocols.ProtocolTests.test_xray_stats) ... ok
+test_failed_collection_preserves_session_audit_and_rules (test_regressions.RegressionTests.test_failed_collection_preserves_session_audit_and_rules) ... ok
+test_failed_validation_does_not_restart_engine (test_regressions.RegressionTests.test_failed_validation_does_not_restart_engine) ... ok
+test_installer_only_requests_admin_password (test_regressions.RegressionTests.test_installer_only_requests_admin_password) ... ok
+test_log_read_uses_bounded_tail (test_regressions.RegressionTests.test_log_read_uses_bounded_tail) ... ok
+test_ocserv_invalid_user_row_rejected (test_regressions.RegressionTests.test_ocserv_invalid_user_row_rejected) ... ok
+test_ocserv_reused_id_counts_new_session (test_regressions.RegressionTests.test_ocserv_reused_id_counts_new_session) ... ok
+test_openvpn_incomplete_sample_is_not_empty_healthy (test_regressions.RegressionTests.test_openvpn_incomplete_sample_is_not_empty_healthy) ... ok
+test_openvpn_missing_counter_columns_rejected (test_regressions.RegressionTests.test_openvpn_missing_counter_columns_rejected) ... ok
+test_openvpn_vendor_config_directory_preserved (test_regressions.RegressionTests.test_openvpn_vendor_config_directory_preserved) ... ok
+test_provision_never_seeds_protocol_accounts (test_regressions.RegressionTests.test_provision_never_seeds_protocol_accounts) ... ok
+test_quota_sync_retries_after_failure (test_regressions.RegressionTests.test_quota_sync_retries_after_failure) ... ok
+test_shaper_reapplies_after_engine_restart (test_regressions.RegressionTests.test_shaper_reapplies_after_engine_restart) ... ok
+test_unknown_occtl_format_rejected (test_regressions.RegressionTests.test_unknown_occtl_format_rejected) ... ok
+test_auth_required (test_web.WebTests.test_auth_required) ... ok
+test_bad_credentials (test_web.WebTests.test_bad_credentials) ... ok
+test_cookie_flags (test_web.WebTests.test_cookie_flags) ... ok
+test_csrf_required (test_web.WebTests.test_csrf_required) ... ok
+test_login_brute_force_limit (test_web.WebTests.test_login_brute_force_limit) ... ok
+test_password_change_invalidates_sessions (test_web.WebTests.test_password_change_invalidates_sessions) ... ok
+test_valid_action (test_web.WebTests.test_valid_action) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 6.337s
+
+OK
